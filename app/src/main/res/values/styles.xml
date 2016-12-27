@@ -1,0 +1,91 @@
+<resources>
+
+    <string-array name="priorities">
+        <item>min</item>
+        <item>low</item>
+        <item>default</item>
+        <item>high</item>
+        <item>max</item>
+    </string-array>
+
+    <string-array name="nums">
+        <item>none</item>
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+    <string-array name="styles">
+        <item>default</item>
+        <item>big text</item>
+        <item>btg picture</item>
+        <item>inbox</item>
+    </string-array>
+
+    <string-array name="progress">
+        <item>none</item>
+        <item>normal</item>
+        <item>indeterminate</item>
+    </string-array>
+    <string-array name="when">
+        <item>none</item>
+        <item>显示时间(setShowWhen)</item>
+        <item>显示时钟(setUsesChronometer)</item>
+        <item>显示倒计时(setChronometerCountDown)</item>
+    </string-array>
+    <string-array name="alert">
+        <item>none</item>
+        <item>all</item>
+        <item>lights</item>
+        <item>sound</item>
+        <item>vibrate</item>
+        <item>lights,sound</item>
+        <item>lights,vibrate</item>
+        <item>sound,vibrate</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>secret</item>
+        <item>private</item>
+        <item>public</item>
+    </string-array>
+    <string-array name="categories">
+        <item>none</item>
+        <item>call</item>
+        <item>msg</item>
+        <item>email</item>
+        <item>event</item>
+        <item>promo</item>
+        <item>alarm</item>
+        <item>progress</item>
+        <item>social</item>
+        <item>err</item>
+        <item>transport</item>
+        <item>sys</item>
+        <item>service</item>
+        <item>recommendation</item>
+        <item>status</item>
+        <item>reminder</item>
+    </string-array>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+
+    </style>
+</resources>
